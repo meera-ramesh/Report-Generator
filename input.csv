@@ -1,0 +1,2 @@
+action_event,account,from_date,to_date
+bulk_import,aws:9568,2020-11-01,2021-11-11
