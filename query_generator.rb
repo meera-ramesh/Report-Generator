@@ -109,11 +109,7 @@ class QueryGenerator
             CSV.open("./report/#{@action_event}_#{@account_id}.csv", "a") do |csv|
                 csv << row
             end
-        }
-
-        job.job_result_format(job.job_id,'csv')
-        
-
+        }        
     end
 
     def wait_job(job)
